@@ -6,6 +6,8 @@
     var out;
     out = "<p class=\"name\">" + item["GivenName"] + " " + item["Surname"] + "</p>";
     out = out + ("<p>" + item["Department Name (EN)"] + " " + item["Title (EN)"] + "</p>");
+    out = out + ("<p>" + item["Telephone Number"] + "</p>");
+    out = out + ("<p>" + item["Email"] + "</p>");
     return out;
   };
 
