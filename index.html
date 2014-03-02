@@ -1,32 +1,63 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
   <meta charset="utf-8">
   <title>Swiftype GEDS</title>
-  <link type="text/css" rel="stylesheet" href="swiftype-autocomplete-jquery/autocomplete.css" media="all" />
-
   <meta name="description" content="GEDS Next – an unofficial Canadian Federal public service staff address book">
   <meta name="author" content="Edward Ocampo-Gooding">
 
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="skeleton/stylesheets/base.css">
+  <link rel="stylesheet" href="skeleton/stylesheets/skeleton.css">
+  <link rel="stylesheet" href="skeleton/stylesheets/layout.css">
+  <link type="text/css" rel="stylesheet" href="swiftype-autocomplete-jquery/autocomplete.css" media="all" />
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="skeleton/images/favicon.ico">
+  <link rel="apple-touch-icon" href="skeleton/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="skeleton/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="skeleton/images/apple-touch-icon-114x114.png">
+
 </head>
 <body>
-  <h1>GEDS Next</h1>
-  <p>This tool lets you look up staff in the Canadian Federal Public Service.</p>
-  <p>Try typing in “Alice”:</p>
-  <p><input type="search" id="st-search-input" size="120"/></p>
 
-  <p><a href="http://swiftype.com?ref=pb">
-  <img src="http://swiftype.com/assets/media/swiftype-logo-lightbg-small.png" alt="Search by Swiftype" style="border: none; width: 169px; height: 20px;" />
-</a></p>
+  <!-- Primary Page Layout
+  ================================================== -->
+
+  <div class="container">
+    <div class="sixteen columns">
+      <h1 class="remove-bottom" style="margin-top: 40px">GEDS Next</h1>
+      <h5>This tool lets you look up staff in the Canadian Federal Public Service.</h5>
+      <hr />
+
+      <p>Try typing in “Alice”:</p>
+      <p><input type="search" id="st-search-input" size="120"/></p>
+
+      <p><a href="http://swiftype.com?ref=pb">
+      <img src="http://swiftype.com/assets/media/swiftype-logo-lightbg-small.png" alt="Search by Swiftype" style="border: none; width: 169px; height: 20px;" /></a></p>
+    </div>
+  </div><!-- container -->
+
+  <script type="text/javascript" src="swiftype-autocomplete-jquery/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="swiftype-autocomplete-jquery/jquery.swiftype.autocomplete.js"></script>
+  <script type="text/javascript" src="custom_swiftype.js"></script>
+<!-- End Document
+================================================== -->
 </body>
-
-<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> -->
-<script type="text/javascript" src="swiftype-autocomplete-jquery/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="swiftype-autocomplete-jquery/jquery.swiftype.autocomplete.js"></script>
-<script type="text/javascript" src="custom_swiftype.js"></script>
-
 </html>
