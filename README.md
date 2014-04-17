@@ -6,6 +6,8 @@ A GEDS with autocomplete. Just type in something.
 
 Made for https://www.canadianopendataexperience.com/
 
+[![image](https://cloud.githubusercontent.com/assets/325/2732961/8460b178-c640-11e3-9331-afaac0d2c263.png)](https://www.youtube.com/watch?v=AnEnpeJG71o)
+
 ## Details
 
 GEDS Next provides a more human way to find contact details for a public servant by adding autocompletion across all ~160 000 records.
